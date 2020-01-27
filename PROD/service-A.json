@@ -1,0 +1,13 @@
+{
+  "name" : "service-a",
+  "keycloakConfiguration": {
+    "realm": "realm-prod",
+    "realm-public-key": "abcdefghijklmnopqrstuvwxyz",
+    "auth-server-url": "http://keycloakprod:8080/auth",
+    "ssl-required": "external",
+    "resource": "prod-resource",
+    "credentials": {
+      "secret": "abcdefghijklmnopqrstuvwxyz"
+    }
+  }
+}

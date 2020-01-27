@@ -1,0 +1,13 @@
+{
+  "name" : "service-a",
+  "keycloakConfiguration": {
+    "realm": "realm-stage",
+    "realm-public-key": "abcdefghijklmnopqrstuvwxyz",
+    "auth-server-url": "http://keycloakstage:8080/auth",
+    "ssl-required": "external",
+    "resource": "stage-resource",
+    "credentials": {
+      "secret": "abcdefghijklmnopqrstuvwxyz"
+    }
+  }
+}
